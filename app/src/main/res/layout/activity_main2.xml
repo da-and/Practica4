@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,30 +15,27 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:text="Nuevo Profesor" />
+            android:text="Listado"
+            tools:layout_editor_absoluteX="75dp"
+            tools:layout_editor_absoluteY="25dp" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/etNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name"
-            tools:layout_editor_absoluteX="55dp"
-            tools:layout_editor_absoluteY="41dp"
-            tools:text="Nombre" />
+            android:hint="Ingrese Nombre"
+            android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/btBoton2"
+            android:id="@+id/buBoton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
-            tools:text="Grabar" />
+            android:text="Button" />
 
         <ListView
+            android:id="@+id/lvListado"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -27,22 +27,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="ingrese usuario"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/etClave"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name" />
+            android:hint="ingrese clave"
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/buBoton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Button"
-            tools:text="Login" />
+            android:text="Login" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
